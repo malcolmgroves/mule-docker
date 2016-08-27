@@ -1,10 +1,10 @@
-# Mule ESB Dockerfile
+# Mule ESB Dockerfile for Raspberry Pi
 Docker Image packaging for MuleESB http://www.mulesoft.org
 
 
 ## How to use
 ```
-docker pull vromero/mule
+docker pull malg/armhf-mule
 ```
 
 ### Usage
