@@ -1,6 +1,6 @@
-FROM java:openjdk-8-jdk
+FROM docker-rpi-java8
 
-MAINTAINER victor.romero@gmail.com
+MAINTAINER malcolm.r.groves@gmail.com
 
 RUN cd ~ && wget https://repository-master.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/3.8.0/mule-standalone-3.8.0.tar.gz && echo "d9279b3f0373587715613341a16483f3 mule-standalone-3.8.0.tar.gz" | md5sum -c
 
