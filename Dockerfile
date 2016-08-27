@@ -3,8 +3,8 @@ FROM dordoka/rpi-java8
 MAINTAINER malcolm.r.groves@gmail.com
 
 CMD cd ~ 
-CMD wget https://repository-master.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/3.8.0/mule-standalone-3.8.0.tar.gz
-CMD echo "d9279b3f0373587715613341a16483f3 mule-standalone-3.8.0.tar.gz" | md5sum -c
+CMD wget --no-check-certificate https://repository-master.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/3.8.0/mule-standalone-3.8.0.tar.gz
+#CMD echo "d9279b3f0373587715613341a16483f3 mule-standalone-3.8.0.tar.gz" | md5sum -c
 CMD cd /opt 
 CMD tar xvzf ~/mule-standalone-3.8.0.tar.gz 
 CMD rm ~/mule-standalone-3.8.0.tar.gz 
