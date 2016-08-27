@@ -1,4 +1,4 @@
-FROM docker-rpi-java8
+FROM docker pull dordoka/rpi-java8
 
 MAINTAINER malcolm.r.groves@gmail.com
 
